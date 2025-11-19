@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!--Подключаем наши стили -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Основные мета-теги -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Заголовок страницы-->
+    <title>Контакты</title>
+    <!--Подключаем шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<header>
+    <!-- Блок навигации -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">Обо мне</a></li>
+            <li><a href="skills.html">Навыки</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+
+    <div class="about">
+        <h2>Мои работы</h2>
+    </div>
+
+    <!--  НАЧАЛО СЛАЙДЕРА  -->
+    <div class="slider-container">
+        <!-- Этот div будет "окном", через которое мы видим один слайд -->
+        <div class="slider-window">
+            <!-- Этот div будет "лентой" которая двигается влево-вправо -->
+            <div class="slider-track">
+                <img src="picture/primer2.jpg" alt="Пример работы 1">
+                <img src="picture/primer3.png" alt="Пример работы 2">
+                <img src="picture/primer4.png" alt="Пример работы 3">
+            </div>
+        </div>
+        <!-- Кнопки для навигации -->
+        <button class="slider-btn prev">&#10094;</button> <!-- Стрелка влево -->
+        <button class="slider-btn next">&#10095;</button> <!-- Стрелка вправо -->
+    </div>
+    <!--  КОНЕЦ СЛАЙДЕРА -->
+
+
+    
+    <div class="kartunku" style="margin-top: 40px;">
+        <a href="https://github.com/NAWOE" target="_blank">
+            <img src="picture/github.png" alt="Мой гитхаб" title="Нажмите, чтобы перейти в мой профиль GitHub">
+        </a>
+    </div>
+
+    <!-- Подключаем скрипты -->
+    <script src="script.js"></script>
+</body>
+
+<!--  подвал сайта -->
+<footer>
+    <div class="social-links">
+        <a href="https://vk.com/n4woe">VK</a>
+        <a href="https://github.com/NAWOE" target="_blank">GitHub</a>
+        <a href="https://t.me/@eow4nxgod" target="_blank">Telegram</a>
+        <a href="mailto:eowyn228top@gmail.com">Email</a>
+    </div>
+    <p class="copyright">© 2025 Шахов Никита. Все права защищены.</p>
+</footer>
+</html>
